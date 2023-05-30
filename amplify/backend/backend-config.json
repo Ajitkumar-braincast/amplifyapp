@@ -1,24 +1,6 @@
 {
-  "api": {
-    "amplifyapp": {
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "additionalAuthenticationProviders": [],
-          "defaultAuthentication": {
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
-            },
-            "authenticationType": "API_KEY"
-          }
-        }
-      },
-      "providerPlugin": "awscloudformation",
-      "service": "AppSync"
-    }
-  },
   "auth": {
-    "amplifyapp8f67cb00": {
+    "amplifyapp5740d16e": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -41,13 +23,6 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
-    }
-  },
-  "storage": {
-    "amplify": {
-      "dependsOn": [],
-      "providerPlugin": "awscloudformation",
-      "service": "S3"
     }
   }
 }
